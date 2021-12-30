@@ -1,3 +1,9 @@
+new kursor({
+  type: 2,
+  removeDefaultCursor: true,
+  color: '#e50915',
+});
+
 // Menu
 const open_btn = document.querySelector('.open-btn');
 const close_btn = document.querySelector('.close-btn');
@@ -371,4 +377,3 @@ gsap.from('.animate-flow', {
 })();
 
 // END Bubbles
-
