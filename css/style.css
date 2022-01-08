@@ -546,6 +546,22 @@ body {
   }
 }
 
+.part1 .part1-img {
+  background-image: url(../img/kris.JPG);
+  background-size: cover;
+  width: 500px;
+  height: 500px;
+  border-radius: 50px;
+  background-position: 0 -55px;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 800px) {
+  .part1 .part1-img {
+    width: 100vw;
+  }
+}
+
 .part2 {
   background-color: black;
   display: -webkit-box;
